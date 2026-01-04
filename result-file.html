@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result Summary Componente || Frontend Mentor</title>
+    <!--Styles CSS-->
+    <link rel="stylesheet" href="result-file.css" />
+    <!--Typography-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Website icon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  </head>
+  <body>
+    <!--Container of "Your result" and "Summary"-->
+    <div class="main-container">
+      <!--Your result content box-->
+      <div class="your-result-container">
+        <h3 class="your-result-title">Your Result</h3>
+
+        <div class="final-score">
+          <p class="average-score">76</p>
+          <p class="average-up-100">of 100</p>
+        </div>
+
+        <h3 class="great-title">Great</h3>
+
+        <p class="footer-text">
+          You scored higer than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <!--Summary content box-->
+      <div class="summary-container">
+        <h3 class="summary-title">Summary</h3>
+
+        <!--Summary results column-->
+        <div class="results-column">
+          <!--Section parts-->
+          <div class="section-result" style="background-color: hsla(0, 100%, 67%, 0.068);">
+             <!--Emotions an icon div section-->
+            <div class="emotions-icons">
+              <img src="icon-reaction.svg" alt="reaction image" />
+              <p class="reaction-test" style="color: hsl(0, 100%, 67%);">Reaction</p>
+            </div>
+            <p class="span-class" style="color: rgb(105, 105, 105);">
+              <span style="font-weight: 600; color: black;">
+                80</span> / 100
+              </p>
+          </div>
+
+          <div class="section-result" style="background-color: hsl(39, 100%, 56%, 0.068);">
+            <!--Emotions an icon div section-->
+            <div class="emotions-icons">
+              <img src="icon-memory.svg" alt="memory image" />
+                <p class="reaction-test" style="color: hsl(39, 100%, 56%);">Memory</p>
+                </div>
+              <p class="span-class" style="color: rgb(105, 105, 105);">
+                <span style="font-weight: 600; color: black;">
+                  92</span> / 100
+                </p>
+          </div>
+
+          <div class="section-result" style="background-color: hsl(166, 100%, 37%, 0.068);">
+             <!--Emotions an icon div section-->
+            <div class="emotions-icons">
+              <img src="icon-verbal.svg" alt="Verbal image" />
+                <p class="reaction-test" style="color: hsl(166, 100%, 37%);">Verbal</p>
+            </div>
+            <p class="span-class"
+              style="color: rgb(105, 105, 105);">
+               <span style="font-weight: 600; color: black;">
+                61</span> / 100
+              </p>
+          </div>
+
+          <div class="section-result" style="background-color: hsl(234, 85%, 45%, 0.068);">
+             <!--Emotions an icon div section-->
+            <div class="emotions-icons">
+              <img src="icon-visual.svg" alt="Visual image" />
+                <p class="reaction-test" style="color: hsl(234, 85%, 45%);">Visual</p>
+            </div>
+            <p class="span-class" 
+                style="color: rgb(105, 105, 105);">
+                  <span style="font-weight: 600; color: black;" >
+                73</span> / 100
+            </p>
+          </div>
+          
+        </div>
+
+        <button class="footer-button">Contiune</button>
+
+      </div>
+
+    </div>
+
+    <!--End of HTML code-->
+  </body>
+</html>

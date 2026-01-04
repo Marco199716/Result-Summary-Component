@@ -1,0 +1,185 @@
+* {
+  background-color: hsl(221, 100%, 96%);
+  font-family: "Hanken Grotesk";
+  margin: 0;
+  padding: 0;
+}
+
+/*Main container settings*/
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: none;
+}
+
+/*Your result main container settings*/
+.your-result-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 25px;
+  height: 30rem;
+  width: 22rem;
+  z-index: 2;
+  position: relative;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+/*Your result title box setting*/
+.your-result-title {
+  background: none;
+  background: linear-gradient(hsl(221, 100%, 96%), hsl(241, 100%, 89%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/*Circule settings from final score class*/
+.final-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-image: linear-gradient(hsl(256, 70%, 46%, 1), hsl(241, 81%, 59%));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Scores*/
+.average-score {
+  background: none;
+  color: white;
+  font-size: 75px;
+  font-weight: 800;
+}
+
+.average-up-100 {
+  background: none;
+  color: rgba(255, 255, 255, 0.466);
+  font-size: 18px;
+}
+
+/*great title settings*/
+.great-title{
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+    background: none;
+    font-size: 28px;
+}
+
+/*footer text settings from your result section*/
+.footer-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+    color: rgba(255, 255, 255, 0.623);
+    background: none;
+    font-size: 18px;
+}
+
+/*Summary content box settings*/
+.summary-container{
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 30rem;
+  width: 25rem;
+  z-index: 1;
+  position: relative;
+  border-radius: 20px;
+  margin-left: -58px;
+  box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.05);
+ 
+  
+}
+
+/*Summary title settings*/
+.summary-title{
+  color: rgb(85, 85, 85);
+  background: none;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 130px;
+  margin-bottom: 35px;
+}
+
+/*Summary results column settings*/
+.results-column{
+  background: none;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+/*Section parts settings*/
+.section-result{
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  gap: 45px;
+}
+
+.section-result span{
+  background: none;
+}
+
+/*Emotions an icons div section settings*/
+.emotions-icons{
+  display: flex;
+  background: none;
+  margin-right: 8px;
+}
+
+.emotions-icons img{
+  margin-right: 8px;
+}
+
+.emotions-icons p{
+  font-weight: 600;
+}
+
+.emotions-icons img, p{
+  background: none;
+}
+
+.span-class{
+  font-weight: 600;
+}
+
+/*Footer button settings*/
+.footer-button{
+  border: none;
+  background: none;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  padding: 15px 110px;
+  margin-left: 58px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-button:hover{
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  
+}
